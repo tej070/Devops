@@ -2,6 +2,6 @@
 This repo basically gives an insight on DevOps practices and tech used.
 <br>
 Let's get into Git Tutorials.
-lets get it modified in a fashion it confuses.
+let's get it modified in a way it feels like new.
 <br>
 Author : Tej Chauhan(Devops Intern)
