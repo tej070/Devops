@@ -19,11 +19,33 @@
         
     }
     SSMS : A sql server to store databses.
-    ISS: A MS web hosting platform.
-    Nginx: A linux based web hosting platform.
-
+    
+   ** ISS: A MS web hosting platform.
+    When hosting a web application with both frontend and backend need to keep in mind the following things
+        >>Frontend files to be outside the backend files(publish)and assests
+        >>Inside assest need to keep appconfig.json file with proper port number
+        >>Inside Backend need to have configuration for Database<DbConnection> 
+        >> Frontendor or assests need to have a appconfig.json file as well
+        >>And then at the IIS end convert the backend to application form and then edit the bindings with the same port number.
+        
+   ** Nginx: A linux based web hosting platform.
+    When Hosting at NGINX need to keep following in mind.
+        >>
     Topics Covered:
-        Backup Scripts : MSSQL, Mongodb, Postgre
-        Git Commands : git init, add, commit, push, pull, blame, status
-        Restoring backup DBs : Full as well as differntial dbs (It's easier to backup full but differential is a bit hectic) 
+        ***Backup Scripts***  
+        #Restoring backup DBs : Full as well as differntial dbs (It's easier to backup full but differential is a bit hectic)
+        1. MSSQL,
+        2. Mongodb, 
+        3. Postgre
+        
+       ## Git Commands ## 
+        git init,
+        git add,
+        git commit -m "message"
+        git push,
+        git pull, 
+        git blame, 
+        git status
+        git log
+        
 </p>
