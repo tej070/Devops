@@ -43,9 +43,32 @@
         git add,
         git commit -m "message"
         git push,
-        git pull, 
+        git pull(uses both fetch and merge separately), 
         git blame, 
         git status
         git log
+        git checkout --track <branch name>
+        git checkout branchname
+        git branch branchname
+        git branch -b newbranch
+        git branch -d branchname
+        git diff 
+        git revert
+        git cherry-pick 
+
+
+## DOCKER COMMANDS ##
+CONTAINERIZATION STEPS:
+        docker build -t appname .
+        docker run -t -p HostPort:ContainerPort appname
+USED COMMANDS:
+        docker images (lists docker images)
+        docker ps (Lists running containers)
+        docker rmi image/imageID (deletes an image)
+        docker rmi -f image/imageID( deletes a running image forcefully )
+        docker inspect ID
+        docker rm containerID (Removes a container)
         
+
+
 </p>
