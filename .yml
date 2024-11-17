@@ -1,0 +1,14 @@
+prometheus.yml
+Prometheus YAML file to monitor the number of specified servers.
+
+/etc/prometheus/
+/etc/prometheus$ cat prometheus.yml 
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "node"
+    static_configs:
+      - targets:
+          - 172.30.193.124:9100
+          - 192.168.125.83:9100

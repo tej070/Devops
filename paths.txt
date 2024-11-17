@@ -1,0 +1,18 @@
+##Paths to destination folders and codes/commands to the linux server
+
+##To find the SSH PORT number of a linux server;
+
+    >>    /etc/ssh/sshd_config.d
+
+##Server configuration path;
+    >>    /etc/nginx/sites-available/
+    >>    cat default
+
+##Service Configuration path;
+    >>   /etc/systemd/system
+    >> cat any service to see the file inside it.
+
+##SSL Certificate
+    >>  /etc/letsencrypt/live/lbacc.himshang.com.np/fullchain.pem;
+    >>  /etc/letsencrypt/live/lbacc.himshang.com.np/privkey.pem;
+(Need to add the .pem file for the same including the private .pem file in the configuration file to ensure ssl certificate is in use and ready.)
