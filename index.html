@@ -87,10 +87,21 @@ USED COMMANDS:
 
 MONITORING AND OBSERVABILITY IN DevOps
 
->Prometheus
+>PROMETHEUS ::
     :Time series database monitoring application
     :Helps to manage the overall metrics and numeric data for a server
+   ->>Process to run a prometheus tool;
+         Install prometheus on your system (can be linux/windows/mac)
+         after getting it installed configure the files in prometheus.yml file(it's the main file for letting a monitoring tool to function properly.)
+         install node exporter which helps visualize the mertics of the entire server.
 
-
-
+>GRAFANA ::
+    Grafana is a powerful tool for observability and monitoring.
+    It's widely used for creating, exploring, and sharing dashboards with real-time data.(metrics/logs/traces).
+    >>Process to observability;
+        1.First configure your prometheus.yml file so that it gets those servers traces and logs for observation.
+        2.Create a dashboard taking prometheus as a data source for the visualization.
+        3.One can work with different themes of dashboards according to the data source used for the visualization.
+        4.Can use frameworks to better visualize the logs and metrics of the server.
+    
 </p>
