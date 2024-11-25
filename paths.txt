@@ -15,4 +15,8 @@
 ##SSL Certificate
     >>  /etc/letsencrypt/live/lbacc.himshang.com.np/fullchain.pem;
     >>  /etc/letsencrypt/live/lbacc.himshang.com.np/privkey.pem;
-(Need to add the .pem file for the same including the private .pem file in the configuration file to ensure ssl certificate is in use and ready.)
+    (Need to add the .pem file for the same including the private .pem file in the configuration file to ensure ssl certificate is in use and ready.)
+
+    >>add port 80 to the link.
+    >>nothing to change in the configuration file excepet these 3 changes to add 
+    ((location: /etc/systemd/system/default))  edit the configuration file here to add the ssl certificate to any particular site.
